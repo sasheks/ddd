@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <modules>
+            <aleks_sort>
+                <version>0.1.0</version>
+            </aleks_sort>
+        </modules>
+        <blocks>
+            <sort>
+                <rewrite>
+                    <sort>Aleks_Sort_Block_Sort</sort>
+                </rewrite>
+            </sort>
+        </blocks>
+
+    </global>
+    <frontend>
+        <routers>
+            <sort>
+                <use>standard</use>
+                <args>
+                    <module>Aleks_Sort</module>
+                    <frontName>sort</frontName>
+                </args>
+            </sort>
+        </routers>
+        <layout>
+            <updates>
+                <sort>
+                    <file>sort.xml</file>
+                </sort>
+            </updates>
+        </layout>
+    </frontend>
+</config>

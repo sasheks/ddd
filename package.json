@@ -1,0 +1,10 @@
+{
+  "name": "package",
+  "version": "0.0.0",
+  "dependencies": {
+    "bower": "*",
+    "grunt": "~0.4.2",
+    "grunt-php": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.2"
+  }
+}

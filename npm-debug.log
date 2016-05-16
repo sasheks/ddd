@@ -1,0 +1,164 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'php-pecl',
+1 verbose cli   'xdebug' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.4
+4 verbose install initial load of C:\xampp\htdocs\ddd\package.json
+5 warn package.json package@0.0.0 No description
+6 warn package.json package@0.0.0 No repository field.
+7 warn package.json package@0.0.0 No README data
+8 warn package.json package@0.0.0 No license field.
+9 verbose installManyTop reading scoped package data from C:\xampp\htdocs\ddd\node_modules\bower\package.json
+10 verbose installManyTop reading scoped package data from C:\xampp\htdocs\ddd\node_modules\git\package.json
+11 verbose installManyTop reading scoped package data from C:\xampp\htdocs\ddd\node_modules\grunt\package.json
+12 verbose installManyTop reading scoped package data from C:\xampp\htdocs\ddd\node_modules\grunt-contrib-watch\package.json
+13 verbose installManyTop reading scoped package data from C:\xampp\htdocs\ddd\node_modules\grunt-php\package.json
+14 info package.json git@0.1.5 No license field.
+15 info package.json grunt-contrib-watch@0.5.3 No license field.
+16 info package.json grunt@0.4.5 No license field.
+17 info package.json grunt-php@0.3.4 No license field.
+18 verbose readDependencies loading dependencies from C:\xampp\htdocs\ddd\package.json
+19 silly cache add args [ 'php-pecl', null ]
+20 verbose cache add spec php-pecl
+21 silly cache add args [ 'xdebug', null ]
+22 verbose cache add spec xdebug
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: 'php-pecl',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'php-pecl',
+23 silly cache add   rawSpec: '',
+23 silly cache add   spec: 'latest',
+23 silly cache add   type: 'tag' }
+24 silly addNamed php-pecl@latest
+25 verbose addNamed "latest" is being treated as a dist-tag for php-pecl
+26 info addNameTag [ 'php-pecl', 'latest' ]
+27 silly mapToRegistry name php-pecl
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'php-pecl',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   name: 'php-pecl',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/php-pecl
+32 verbose addNameTag registry:https://registry.npmjs.org/php-pecl not in flight; fetching
+33 silly cache add parsed spec Result {
+33 silly cache add   raw: 'xdebug',
+33 silly cache add   scope: null,
+33 silly cache add   name: 'xdebug',
+33 silly cache add   rawSpec: '',
+33 silly cache add   spec: 'latest',
+33 silly cache add   type: 'tag' }
+34 silly addNamed xdebug@latest
+35 verbose addNamed "latest" is being treated as a dist-tag for xdebug
+36 info addNameTag [ 'xdebug', 'latest' ]
+37 silly mapToRegistry name xdebug
+38 silly mapToRegistry using default registry
+39 silly mapToRegistry registry https://registry.npmjs.org/
+40 silly mapToRegistry data Result {
+40 silly mapToRegistry   raw: 'xdebug',
+40 silly mapToRegistry   scope: null,
+40 silly mapToRegistry   name: 'xdebug',
+40 silly mapToRegistry   rawSpec: '',
+40 silly mapToRegistry   spec: 'latest',
+40 silly mapToRegistry   type: 'tag' }
+41 silly mapToRegistry uri https://registry.npmjs.org/xdebug
+42 verbose addNameTag registry:https://registry.npmjs.org/xdebug not in flight; fetching
+43 verbose request uri https://registry.npmjs.org/php-pecl
+44 verbose request no auth needed
+45 info attempt registry request try #1 at 12:41:04 PM
+46 verbose request id 536f75c720faeca7
+47 http request GET https://registry.npmjs.org/php-pecl
+48 verbose request uri https://registry.npmjs.org/xdebug
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 12:41:04 PM
+51 http request GET https://registry.npmjs.org/xdebug
+52 http 404 https://registry.npmjs.org/xdebug
+53 verbose headers { 'content-type': 'application/json',
+53 verbose headers   'cache-control': 'max-age=0',
+53 verbose headers   'content-length': '2',
+53 verbose headers   'accept-ranges': 'bytes',
+53 verbose headers   date: 'Sun, 15 May 2016 10:41:04 GMT',
+53 verbose headers   via: '1.1 varnish',
+53 verbose headers   age: '0',
+53 verbose headers   connection: 'keep-alive',
+53 verbose headers   'x-served-by': 'cache-fra1222-FRA',
+53 verbose headers   'x-cache': 'MISS',
+53 verbose headers   'x-cache-hits': '0',
+53 verbose headers   'x-timer': 'S1463308863.979696,VS0,VE108',
+53 verbose headers   vary: 'Accept-Encoding' }
+54 silly get cb [ 404,
+54 silly get   { 'content-type': 'application/json',
+54 silly get     'cache-control': 'max-age=0',
+54 silly get     'content-length': '2',
+54 silly get     'accept-ranges': 'bytes',
+54 silly get     date: 'Sun, 15 May 2016 10:41:04 GMT',
+54 silly get     via: '1.1 varnish',
+54 silly get     age: '0',
+54 silly get     connection: 'keep-alive',
+54 silly get     'x-served-by': 'cache-fra1222-FRA',
+54 silly get     'x-cache': 'MISS',
+54 silly get     'x-cache-hits': '0',
+54 silly get     'x-timer': 'S1463308863.979696,VS0,VE108',
+54 silly get     vary: 'Accept-Encoding' } ]
+55 http 404 https://registry.npmjs.org/php-pecl
+56 verbose headers { 'content-type': 'application/json',
+56 verbose headers   'cache-control': 'max-age=0',
+56 verbose headers   'content-length': '2',
+56 verbose headers   'accept-ranges': 'bytes',
+56 verbose headers   date: 'Sun, 15 May 2016 10:41:04 GMT',
+56 verbose headers   via: '1.1 varnish',
+56 verbose headers   age: '0',
+56 verbose headers   connection: 'keep-alive',
+56 verbose headers   'x-served-by': 'cache-fra1242-FRA',
+56 verbose headers   'x-cache': 'MISS',
+56 verbose headers   'x-cache-hits': '0',
+56 verbose headers   'x-timer': 'S1463308863.971568,VS0,VE745',
+56 verbose headers   vary: 'Accept-Encoding' }
+57 silly get cb [ 404,
+57 silly get   { 'content-type': 'application/json',
+57 silly get     'cache-control': 'max-age=0',
+57 silly get     'content-length': '2',
+57 silly get     'accept-ranges': 'bytes',
+57 silly get     date: 'Sun, 15 May 2016 10:41:04 GMT',
+57 silly get     via: '1.1 varnish',
+57 silly get     age: '0',
+57 silly get     connection: 'keep-alive',
+57 silly get     'x-served-by': 'cache-fra1242-FRA',
+57 silly get     'x-cache': 'MISS',
+57 silly get     'x-cache-hits': '0',
+57 silly get     'x-timer': 'S1463308863.971568,VS0,VE745',
+57 silly get     vary: 'Accept-Encoding' } ]
+58 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/xdebug
+58 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+58 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+58 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+58 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:199:22)
+58 verbose stack     at emitTwo (events.js:87:13)
+58 verbose stack     at Request.emit (events.js:172:7)
+58 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1036:10)
+58 verbose stack     at emitOne (events.js:82:20)
+58 verbose stack     at Request.emit (events.js:169:7)
+58 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:963:12)
+59 verbose statusCode 404
+60 verbose pkgid xdebug
+61 verbose cwd C:\xampp\htdocs\ddd
+62 error Windows_NT 6.3.9600
+63 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "php-pecl" "xdebug"
+64 error node v4.4.4
+65 error npm  v2.15.1
+66 error code E404
+67 error 404 Registry returned 404 for GET on https://registry.npmjs.org/xdebug
+67 error 404
+67 error 404 'xdebug' is not in the npm registry.
+67 error 404 You should bug the author to publish it (or use the name yourself!)
+67 error 404 It was specified as a dependency of 'package'
+67 error 404
+67 error 404 Note that you can also install from a
+67 error 404 tarball, folder, http url, or git url.
+68 verbose exit [ 1, true ]
